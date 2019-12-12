@@ -1,51 +1,35 @@
-# What's Cookin'? Starter Kit 
+# Spiced
 
-The details of this project are outlined in the <a href="https://frontend.turing.io/projects/whats-cookin.html" target="\__blank">project spec</a>.
+What's Cookin? (Spiced) is the first paired project by Noah Gambee and Melissa Steele for Front End Module 2 at Turing School of Software & Design. The goal was to create a recipe tracking / meal planning application that allows users to view their favorite recipes and plan shopping trips around them. Users can search for recipes by tag or name. Finally, users can determine what recipes they would like to add to their weekly menu.
 
-## Set Up 
+The project is broken up into classes to demonstrate objects that have a single responsibility.
 
-1. Within your group, decide on one person to have the project repository on their Github account. This person will *fork* this repository - on the top right corner of the page, click the fork button. 
-2. Both group members should then clone down the forked repository (make sure that everyone is added as a collaborator as well). Since you don't want your project to be named "whats-cookin-starter-kit", add an optional argument after the repo url when cloning. The command should look like this: `git clone [remote-address] [what you want to name the repo]`.
-3. Once you have cloned the repo, change into the directory and install the project dependencies. Run npm install to install project dependencies.
-4. Run open src/index.html in the terminal to see the HTML page (you should see some boilerplate HTML displayed on the page)
-5. Make sure both members of your team are collaborators on the forked repo.
-
-## Testing 
-
-There is no boilerplate for testing in this starter-kit repo. You will need to set this up yourself. However, if you ran npm install, then the tooling you need to start testing is already installed (mocha and chai).
-
-## Linting Your Code 
-
-Run the command in your terminal npm run lint to run the linter on your JavaScript code. There will be errors and warnings right from the start in this starter kit, but that's ok - the linter is still running successfully.
-
-Your linter will look only at the JavaScript files you have within the src and the test directories.
+Test driven development has been used to drive code.
 
 
-## Data Model
-### Users
-```js
-{
-  "id": [number],
-  "name": [string],
-  "pantry": [array of objects with amount and ingredient id properties]
-},
-```
+## Learning Goals
+  - Exercise design abilities by building without a comp
+  - Write well structured and semantic HTML
+  - Craft clean and DRY CSS
+  - Use JavaScript to interact with the DOM
+  - Develop your skills in writing:
+    - semantic HTML
+    - clean & organized CSS styles
+    - DRY and organized JavaScript
+    - Utilize single responsibility class structure
+  - Manipulate the page after it has loaded adding, removing, and updating elements on the DOM
+  - Understand and competently implement TDD
 
-### Recipes
-```js
-{
-  "ingredients" [array of objects with ingredients ids(connection to ingredients), ingredient names, and quantity data],
-  "instructions": [array of objects with instructions properties and numbered steps],
-  "name": [string],
-  "tags": [array of strings representing info about the recipes]
-}
-```
+## Technologies Used
+  - HTML
+  - CSS
+  - JavaScript
 
-### Ingredients
-```js
-{
-  "estimatedCostInCents": [number],
-  "id": [number -- connection to users and recipes],
-  "name": [string]
-}
-```
+## Set Up
+1. Clone this repository
+2. Inside of the project directory, install the project dependencies by running npm install.
+3. Run ```open index.html``` in the terminal command line
+
+## Design
+<img width="1440" alt="Screen Shot 2019-12-12 at 7 03 42 AM" src="https://user-images.githubusercontent.com/54558211/70718753-07dc8080-1cae-11ea-98d4-23ef04a6c58a.png">
+<img width="1431" alt="Screen Shot 2019-12-12 at 7 03 56 AM" src="https://user-images.githubusercontent.com/54558211/70718785-16c33300-1cae-11ea-8075-9995a5711080.png">
