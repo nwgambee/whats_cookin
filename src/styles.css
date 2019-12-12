@@ -102,6 +102,7 @@ body {
   border: none;
   color: #A4AF95;
   background-color: #25473E;
+  border: 2px solid black;
 }
 
 .cook-star,
@@ -110,6 +111,7 @@ body {
   border: none;
   color: #A4AF95;
   background-color: #25473E;
+  border: 2px solid black;
 }
 #expanded-recipe-page {
   border-radius: 3%;
