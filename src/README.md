@@ -1,6 +1,6 @@
-# Which Meghan Markle
+# Spiced
 
-What's Cookin? is the first paired project by Noah Gambee and Melissa Steele for Front End Module 2 at Turing School of Software & Design. The goal was to create a recipe tracking / meal planning application that allows users to view their favorite recipes and plan shopping trips around them. Users can search for recipes by tag or name. Finally, users can determine what recipes they would like to add to their weekly menu.
+What's Cookin? (Spiced) is the first paired project by Noah Gambee and Melissa Steele for Front End Module 2 at Turing School of Software & Design. The goal was to create a recipe tracking / meal planning application that allows users to view their favorite recipes and plan shopping trips around them. Users can search for recipes by tag or name. Finally, users can determine what recipes they would like to add to their weekly menu.
 
 The project is broken up into classes to demonstrate objects that have a single responsibility.
 
